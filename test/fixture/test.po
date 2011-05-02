@@ -1,0 +1,23 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: javascript-gettext-text 0.01\n"
+"POT-Creation-Date: 2008-12-02 12:14:07:00\n"
+"PO-Revision-Date: 2008-12-02 12:14:09:00\n"
+"Last-Translator: Joshua Miller <unrtst@cpan.org>\n"
+"Language-Team: German <de@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10==2 ? 1 : n%10==3 || n%"
+"10==4 ? 2 : 3);\n"
+
+# The Plural-Forms header is wrong on purpose.  It is in fact the correct
+# setting for Slovenian, but we abuse it here for testing ngettext and
+# friends.
+msgid "Singular"
+msgid_plural "Plural"
+msgstr[0] "Numerus 0"
+msgstr[1] "Numerus 1"
+msgstr[2] "Numerus 2"
+msgstr[3] "Numerus 3"
+

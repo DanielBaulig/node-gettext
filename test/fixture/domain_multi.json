@@ -1,0 +1,24 @@
+ {
+'messages' : {
+    '' : {
+        'domain'        : 'messages',
+        'lang'          : 'en',
+        'plural-forms'  : "nplurals=2; plural=(n != 1);"
+        },
+    'test' : [ null, 'XXtestXX' ],
+    'test singular' : [ 'test plural', 'XXtestXX singular', 'XXtestXX plural' ],
+    'context\u0004test' : [ null, 'XXtestXX context' ],
+    'context\u0004test singular' : [ 'test context plural', 'XXtestXX context singular', 'XXtestXX context plural' ]
+    },
+'messages2' : {
+    '' : {
+        'domain'        : 'messages2',
+        'lang'          : 'en',
+        'plural-forms'  : "nplurals=2; plural=(n != 1);"
+        },
+    'test' : [ null, '22test22' ],
+    'test singular' : [ 'test plural', '22test22 singular', '22test22 plural' ],
+    'context\u0004test' : [ null, '22test22 context' ],
+    'context\u0004test singular' : [ 'test context plural', '22test22 context singular', '22test22 context plural' ]
+    }
+}
