@@ -1,0 +1,19 @@
+{
+  "name": "gettext",
+  "description": "A GNU gettext implementation for node.js",
+  "version": "0.0.1",
+  "homepage": "http://github.com/DanielBaulig/node-gettext",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DanielBaulig/node-gettext.git"
+  },
+  "author": "Daniel Baulig <daniel.baulig@gmx.de> (http://www.danielbaulig.de)",
+  "main": "./lib/gettext.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "keyword": ["gettext", "translation", "localization", "i18n"],
+  "engines": {
+    "node": "*"
+  }
+}

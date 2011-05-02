@@ -1,0 +1,4 @@
+* Improve Documentation
+* Add examples beyond unit tests
+* Expose loading of *.json objects / files
+* Add po2json binary from original Javascript Gettext

@@ -1,0 +1,11 @@
+ {
+'messages' : {
+    '' : {
+        'domain'        : 'messages',
+        'lang'          : 'en',
+        'plural-forms'  : "nplurals=2; plural=(n != 1);"
+        },
+    'test' : [ null, 'XXtestXX' ],
+    'test with "embedded" quotes' : [ null, 'XXtest with "embedded" quotesXX' ]
+    }
+}

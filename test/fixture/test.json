@@ -1,0 +1,16 @@
+ {
+'test' : {
+    '' : {
+        'domain'        : 'test',
+        'lang'          : 'en',
+        'plural-forms'  : "nplurals=2; plural=(n != 1);"
+        },
+    'test singular' : [ null, 'XXtestXX' ],
+    'test plural %n' : [ 'test plural %n', 'XXtestXXs %n', 'XXtestXXp %n' ],
+    'context\u0004test context' : [ null, 'XXtestXXcontext' ],
+    'test2' : [ null, 'XXtest2XX' ],
+    'zero length translation' : [ null, '' ],
+    'context\u0004test2' : [ null, 'XXtest2XXcontext' ],
+    'context\u0004context plural %n' : [ 'plural %n', 'XXcpXX singular %n', 'XXcpXX plural %n' ]
+    }
+}
