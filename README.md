@@ -36,7 +36,7 @@ Install
 
 Install via npm
 
-        npm install node-gettext
+        npm install gettext
 
 Documentation
 -------------
