@@ -15,5 +15,8 @@
   "keyword": ["gettext", "translation", "localization", "i18n"],
   "engines": {
     "node": "*"
+  },
+  "devDependencies": {
+    "nodeunit": "0.7.4"
   }
 }

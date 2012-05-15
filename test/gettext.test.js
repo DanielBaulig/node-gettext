@@ -1,5 +1,5 @@
 var gt = require('../lib/gettext'),
-    testCase = require('../deps/nodeunit').testCase;
+    testCase = require('nodeunit').testCase;
 
 
 
