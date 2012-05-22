@@ -12,6 +12,9 @@
   "directories": {
     "lib": "lib"
   },
+  "script": {
+    "test": "./node_modules/.bin/nodeunit test"
+  },
   "keyword": ["gettext", "translation", "localization", "i18n"],
   "engines": {
     "node": "*"
