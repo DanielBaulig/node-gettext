@@ -20,8 +20,8 @@ msgstr ""
 # uncomment it and it should fail (SyntaxError: Unexpected token ;)
 msgid "Singular"
 msgid_plural "Plural"
+msgstr[3] "Numerus 3"
 msgstr[0] "Numerus 0"
 msgstr[1] "Numerus 1"
 msgstr[2] "Numerus 2"
-msgstr[3] "Numerus 3"
 
