@@ -8,12 +8,16 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8-bit\n"
-"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10==2 ? 1 : n%10==3 || n%"
-"10==4 ? 2 : 3);\n"
+# right
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10==2 ? 1 : n%10==3 || n%10==4 ? 2 : 3);\n"
+# wrong
+#"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10==2 ? 1 : n%10==3 || n"
+#"%10==4 ? 2 : 3);\n"
 
 # The Plural-Forms header is wrong on purpose.  It is in fact the correct
 # setting for Slovenian, but we abuse it here for testing ngettext and
 # friends.
+# uncomment it and it should fail (SyntaxError: Unexpected token ;)
 msgid "Singular"
 msgid_plural "Plural"
 msgstr[0] "Numerus 0"
