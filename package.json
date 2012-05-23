@@ -20,6 +20,7 @@
     "node": "*"
   },
   "dependencies": {
+    "node-po": "https://github.com/dodo/node-po/tarball/master",
     "async": "0.1.x"
   },
   "devDependencies": {
