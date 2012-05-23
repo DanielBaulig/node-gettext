@@ -8,6 +8,7 @@
     "url": "git://github.com/DanielBaulig/node-gettext.git"
   },
   "author": "Daniel Baulig <daniel.baulig@gmx.de> (http://www.danielbaulig.de)",
+  "contributors": ["dodo (https://github.com/dodo)"],
   "main": "./lib/gettext.js",
   "directories": {
     "lib": "lib"
