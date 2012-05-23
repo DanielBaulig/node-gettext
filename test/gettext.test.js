@@ -1,9 +1,8 @@
-var gt = require('../lib/gettext'),
-    testCase = require('../deps/nodeunit').testCase;
+var gt = require('../lib/gettext');
 
 
 
-module.exports = testCase({
+module.exports = {
     setUp: function (done) {
         gt.loadLanguageFile(__dirname + '/fixture/test.po', function (err) {
             if (!err) {
@@ -72,4 +71,4 @@ module.exports = testCase({
             t.done();
         });
     }
-});
+};
