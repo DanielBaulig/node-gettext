@@ -19,6 +19,9 @@
   "engines": {
     "node": "*"
   },
+  "dependencies": {
+    "async": "0.1.x"
+  },
   "devDependencies": {
     "nodeunit": "0.7.4"
   }
