@@ -8,12 +8,23 @@
     "url": "git://github.com/DanielBaulig/node-gettext.git"
   },
   "author": "Daniel Baulig <daniel.baulig@gmx.de> (http://www.danielbaulig.de)",
+  "contributors": ["dodo (https://github.com/dodo)"],
   "main": "./lib/gettext.js",
   "directories": {
     "lib": "lib"
   },
+  "script": {
+    "test": "./node_modules/.bin/nodeunit test"
+  },
   "keyword": ["gettext", "translation", "localization", "i18n"],
   "engines": {
     "node": "*"
+  },
+  "dependencies": {
+    "node-po": "https://github.com/dodo/node-po/tarball/master",
+    "async": "0.1.x"
+  },
+  "devDependencies": {
+    "nodeunit": "0.7.4"
   }
 }
