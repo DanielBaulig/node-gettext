@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/DanielBaulig/node-gettext.png)](http://travis-ci.org/DanielBaulig/node-gettext)
 node-gettext
 ============
 
